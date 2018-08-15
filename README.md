@@ -18,6 +18,23 @@
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 
+### Installation 
+
+Insert to compose.json 
+
+    "require": {
+	    "vietpay/momo": "*"
+    },
+    "repositories": {
+        "vietpay-momo": {
+            "type": "vcs",
+            "url": "https://github.com/vietcli/vietcli-vietpay.git"
+        }
+    },
+    "extra": {
+        "magento-root-dir": "root"
+    }
+    
 ### changelog
 
 See [CHANGELOG.md](CHANGELOG.md).

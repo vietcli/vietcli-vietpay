@@ -5,8 +5,11 @@
   "license":"GPL-3.0+",
   "authors": [
     {
-      "name": "Viet Duong",
-      "email": "vietduong@coffeemugvn.com"
+      "name": "Alex Headley",
+      "email": "aheadley@nexcess.net"
     }
-  ]
+  ],
+  "require": {
+    "magento-hackathon/magento-composer-installer": "*"
+  }
 }
