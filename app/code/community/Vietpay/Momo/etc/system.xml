@@ -23,7 +23,7 @@
     <sections>
         <payment>
             <groups>
-                <vietpay_momo translate="label" module="momo">
+                <vietpay_momo translate="label" module="payment">
                     <label>Momo</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>60</sort_order>
