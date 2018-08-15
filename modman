@@ -1,0 +1,4 @@
+## Vietpay - MoMo Payment Method For Magento 1
+
+app/etc/modules/Vietpay_Momo.xml       app/etc/modules/Vietpay_Momo.xml
+app/code/community/Vietpay/Momo/       app/code/community/Vietpay/Momo/

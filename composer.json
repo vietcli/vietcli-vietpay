@@ -1,0 +1,12 @@
+{
+  "name": "vietpay/momo",
+  "type": "magento-module",
+  "description": "MoMo Payment Method For Magento 1",
+  "license":"GPL-3.0+",
+  "authors": [
+    {
+      "name": "Viet Duong",
+      "email": "vietduong@coffeemugvn.com"
+    }
+  ]
+}

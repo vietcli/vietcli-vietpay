@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Vietpay
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to viet.duong@hotmail.com so we can send you a copy immediately.
+ *
+ * @category    Vietpay
+ * @package     Vietpay_Momo
+ * @copyright   Copyright (c) 2018 Viet Duong
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <modules>
+        <Vietpay_Momo>
+            <version>0.1.0</version>
+        </Vietpay_Momo>
+    </modules>
+    <default>
+        <payment>
+            <vietpay_momo>
+                <active>0</active>
+                <title>Vietpay MoMo Payment (MoMo.vn)</title>
+                <cgi_url>https://payment.momo.vn</cgi_url>
+                <sandbox_cgi_url>https://test-payment.momo.vn</sandbox_cgi_url>
+                <sandbox>1</sandbox>
+                <debug>0</debug>
+                <email_customer>0</email_customer>
+                <!--<login backend_model="adminhtml/system_config_backend_encrypted"/>-->
+                <!--<merchant_email/>-->
+                <!--<model>paygate/authorizenet</model>-->
+                <!--<order_status>processing</order_status>-->
+                <!--<payment_action>authorize</payment_action>-->
+                <!--<test>1</test>-->
+                <!--<title>Credit Card (Authorize.net)</title>-->
+                <trans_key backend_model="adminhtml/system_config_backend_encrypted"/>
+                <allowspecific>0</allowspecific>
+                <currency>USD</currency>
+                <partial_authorization_checksum_checking>1</partial_authorization_checksum_checking>
+            </vietpay_momo>
+        </payment>
+    </default>
+</config>
